@@ -1,0 +1,30 @@
+extends layout
+
+block content
+ .jumbotron
+      .container
+        h1 #{title}
+        p
+          | This is a bootstrap 4 jumbotron with jade, using an express router
+        p
+          a.btn.btn-primary.btn-lg(href='#', role='button') Learn more »
+    .container
+      .row
+        .col-md-4
+          h2 Express
+          p
+            | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. 
+          p
+            a.btn.btn-default(href='#', role='button') View details »
+        .col-md-4
+          h2 Jade
+          p
+            | Jade is a high performance template engine heavily influenced by Haml and implemented with JavaScript for node and browsers. 
+          p
+            a.btn.btn-default(href='#', role='button') View details »
+        .col-md-4
+          h2 Node.js
+          p
+            | Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+          p
+            a.btn.btn-default(href='#', role='button') View details »
